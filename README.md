@@ -46,3 +46,7 @@ Predicting round of draftee from combine performance
     </p>
    <br>
    
+- ### Conclusion / Results
+
+- #### Best Binary Classifier (i.e. drafted vs undrafted): Random Forest with an F1 score of .795
+- #### Best Multi Classifier (i.e. predict round drafted): Random Forest with an F1 score of .361
