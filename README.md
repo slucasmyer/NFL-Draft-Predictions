@@ -46,7 +46,10 @@ Predicting round of draftee from combine performance
     </p>
    <br>
    
-- ### Conclusion / Results
+- ### Conclusion & Results
 
 - #### Best Binary Classifier (i.e. drafted vs undrafted): Random Forest with an F1 score of .795
 - #### Best Multi Classifier (i.e. predict round drafted): Random Forest with an F1 score of .361
+
+- #### Interpretation
+   - While the observed result of better predictive accuracy on the binary classification problem was certainly to be expected, the F1 score achieved on the multi-class problem was surpringly high, suggesting that combine performance is fairly indicative of draft position. That said, further investigation ought to be conducted which incorporates both college production and media/executive sentiment pertaining to each player during the run up to the draft. In this way we might be able to better ascertain just how significant combine performance ALONE is for those players invited.
